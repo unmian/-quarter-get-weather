@@ -1,7 +1,7 @@
 /*
  * @Author: Quarter
  * @Date: 2022-05-07 07:11:27
- * @LastEditTime: 2022-05-07 10:56:09
+ * @LastEditTime: 2022-05-10 01:52:56
  * @LastEditors: Quarter
  * @Description: 彩云天气 API 天气
  * @FilePath: /get-weather/src/caiyun.ts
@@ -42,25 +42,80 @@ const CaiYunWeatherDic: CaiYunWeatherIconMap = {
     time: "all",
     icon: "cloudy",
   },
+  LIGHT_HAZE: {
+    weather: "轻度雾霾",
+    time: "all",
+    icon: "haze",
+  },
+  MODERATE_HAZE: {
+    weather: "中度雾霾",
+    time: "all",
+    icon: "haze",
+  },
+  HEAVY_HAZE: {
+    weather: "重度雾霾",
+    time: "all",
+    icon: "haze",
+  },
+  LIGHT_RAIN: {
+    weather: "小雨",
+    time: "all",
+    icon: "rain",
+  },
+  MODERATE_RAIN: {
+    weather: "中雨",
+    time: "all",
+    icon: "rain",
+  },
+  HEAVY_RAIN: {
+    weather: "大雨",
+    time: "all",
+    icon: "rain",
+  },
+  STORM_RAIN: {
+    weather: "暴雨",
+    time: "all",
+    icon: "rainstorm",
+  },
+  FOG: {
+    weather: "雾",
+    time: "all",
+    icon: "fog",
+  },
+  LIGHT_SNOW: {
+    weather: "小雪",
+    time: "all",
+    icon: "snow",
+  },
+  MODERATE_SNOW: {
+    weather: "中雪",
+    time: "all",
+    icon: "snow",
+  },
+  HEAVY_SNOW: {
+    weather: "大雪",
+    time: "all",
+    icon: "snow",
+  },
+  STORM_SNOW: {
+    weather: "暴雪",
+    time: "all",
+    icon: "snowstorm",
+  },
+  DUST: {
+    weather: "浮尘",
+    time: "all",
+    icon: "sand",
+  },
+  SAND: {
+    weather: "沙尘",
+    time: "all",
+    icon: "sand",
+  },
   WIND: {
     weather: "大风",
     time: "all",
     icon: "windy",
-  },
-  HAZE: {
-    weather: "雾霾",
-    time: "all",
-    icon: "haze",
-  },
-  RAIN: {
-    weather: "雨",
-    time: "all",
-    icon: "rain",
-  },
-  SNOW: {
-    weather: "雪",
-    time: "all",
-    icon: "snow",
   },
 };
 

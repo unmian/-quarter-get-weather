@@ -102,6 +102,10 @@ GPL-3.0 License © 2022-PRESENT [Quarter](https://github.com/unmian)
 
 ## Releases
 
+### Version 0.2.1 - 2022/05/10
+
+- **refactor:** 按照彩云天气文档更新天气代码映射关系
+
 ### Version 0.2.0 - 2022/05/09
 
 - **feat:** 加入和风天气空气质量数据
